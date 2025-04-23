@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Робота з таблицями">
+    <title>Таблиця</title>
+    <style>
+        /* Оформлення таблиці */
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Таблиця</h1>
+
+    <!-- Таблиця з інформацією -->
+    <table border="1">
+        <caption>Таблиця з інформацією</caption>
+
+        <!-- Заголовок -->
+        <thead>
+            <tr>
+                <th>Ім'я</th>
+                <th>Вік</th>
+                <th>Місто</th>
+            </tr>
+        </thead>
+
+        <!-- Дані -->
+        <tbody>
+            <tr>
+                <td>Яна</td>
+                <td>19</td>
+                <td>Київ</td>
+            </tr>
+            <tr>
+                <td>Олександр</td>
+                <td>19</td>
+                <td>Одеса</td>
+            </tr>
+        </tbody>
+
+        <!-- Підсумок -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Всі дані надано коректно</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
